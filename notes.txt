@@ -1,0 +1,37 @@
+------------SHORTCUT---------------
+
+Select dan ubah kata2 sama dalam 1 code : CTRL + D
+
+------------ALUR----------------
+
+Packege.json --> bin/www/
+
+views/admin/dashboard/view_dashboard.ejs --> controllers/adminController --> routes/admin
+
+***post
+controllers/adminController --> routes/admin --> view
+
+model/Item.js {
+    -Image.js
+    -Feature.js
+    -Activity.js
+}
+model/Booking.js {
+    -Member.js
+    -Bank.js
+}
+
+views/ondex.ejs {
+    -partials/footer.ejs
+    -partials/header.ejs
+    -partials/navbar.ejs
+    -partials/sidebar.ejs
+    -partials/js.ejs
+}
+
+-------------KETERANGAN---------------
+
+
+bin/www ==> import dan menjalankan app.js
+
+model/Item.js ==> parent dengan child 'Image', 'Feature', 'Activity'
